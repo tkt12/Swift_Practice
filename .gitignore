@@ -1,0 +1,53 @@
+# ------------------------
+# macOS関連
+# ------------------------
+.DS_Store
+
+# ------------------------
+# Xcode関連
+# ------------------------
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xcuserstate
+
+# ------------------------
+# Swift Package Manager
+# ------------------------
+.build/
+.swiftpm/
+Package.resolved
+
+# ------------------------
+# Cocoapods（もし使う場合）
+# ------------------------
+Pods/
+Podfile.lock
+
+# ------------------------
+# Carthage（使う場合）
+# ------------------------
+Carthage/
+Carthage/Checkouts
+Carthage/Build
+
+# ------------------------
+# Fastlane（使う場合）
+# ------------------------
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# ------------------------
+# その他
+# ------------------------
+*.xcworkspace
